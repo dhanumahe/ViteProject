@@ -1,0 +1,55 @@
+/* Events.css */
+
+/* Container for the entire events section */
+.events-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Header section */
+  .events-header {
+    text-align: center;
+    margin-bottom: 20px;
+    position: sticky;
+    background-color: white; /* Same background color as the page */
+    z-index: 1000; /* Ensures the header stays on top */
+    width: 100%;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title styling */
+  .events-title {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  /* Main content area containing event cards */
+  .events-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+   
+  }
+  
+  /* Individual event card styling */
+  .event-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 40px;
+    background-color:#FFF6E9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  /* Event title styling */
+  .event-title {
+    font-size: 1.5rem;
+    margin: 0;
+    
+  }
+  
